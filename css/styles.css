@@ -198,6 +198,11 @@ footer {
 .section-one {
     background-color: #2E2F42;
     color: #FFFFFF;
+    background-image: url('/images/people-office1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(0.7);
+    
 }
 
 .head-one {
@@ -209,7 +214,6 @@ footer {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white-color);
-    background-color: #2E2F42;
     margin-bottom: 48px;
 }
 
@@ -379,7 +383,6 @@ max-width: 1158px;
     border: 1px solid #e7e9fc;
     border-bottom: 1px solid #e7e9fc;
     display: flex;
-background-image: url(images/people-offfice1.jpg)
 }
 
 .menu-header {
