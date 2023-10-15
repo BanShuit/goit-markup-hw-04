@@ -276,6 +276,11 @@ margin: 0 auto;
     width: calc((100% - 72px)/4);
     gap: 24px;
 }
+.list-name > svg{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 
 .selection-four {
     font-weight: 500;
@@ -517,4 +522,29 @@ line-height: 1.2;
 color: #2e2f42;
 justify-content: flex-start;
 margin-bottom: 8px;
+}
+.svg-small-icon{
+width: 16px;
+height: 16px;
+display: block;
+}
+.centered-svg {
+    display:block;
+    
+}
+.team-social-link {
+    display: block;
+    width: 16px;
+    height: 16px;
+    color: var(--button-one);
+}
+.icons-media-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:40px;
+    height: 40px;
+}
+.icons-media{
+    margin-left: 16px;
 }
