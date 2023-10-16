@@ -610,7 +610,8 @@ width: 100%;
     color: #8e8f99;
 }
 .section-five{
-    padding:120px;
+padding-top: 120px;
+padding-bottom: 120px;
     
 }
 .social-footer{
