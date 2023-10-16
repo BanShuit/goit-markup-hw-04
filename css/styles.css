@@ -627,7 +627,6 @@ font-weight: 500;
     margin-bottom: 16px;
 }
 .extra-cover{
-background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -643,6 +642,3 @@ width: 100%;
     border-radius: 50%;
     cursor: pointer;
 }
-
-icon-facebook-1
-icon-linkedin-1
