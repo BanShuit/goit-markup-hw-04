@@ -700,6 +700,12 @@ justify-content: center;
     padding: 120px 120px;
 }
 .svg-click{
+    fill: var(--marka-color);
+        display: inline-block;
+        width: 104px;
+        height: 56px;
+        stroke-width: 0;
+        fill: currentColor;
 
 }
 .svg-click:hover ,
