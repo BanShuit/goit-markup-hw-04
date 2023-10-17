@@ -698,7 +698,11 @@ justify-content: center;
     padding: 120px 120px;
 }
 .svg-click{
-        fill: currentColor;
+
+}
+.svg-click:hover ,
+.svg-click:focus{
+    border-color: #404bbf;
 }
 .div-margin{
     margin-right: 120px;
