@@ -592,6 +592,8 @@ justify-content: center;
     display: flex;
     align-items: flex-start;
     gap: 16px;
+    margin-left: 16px;
+        justify-content: center;
 }
 .color-1{
     fill: var(--cloud-color);
@@ -601,8 +603,8 @@ justify-content: center;
             stroke-width: 0;
             stroke: currentColor;
 }
-.team-social-link:hover ,
-.team-social-link:focus {
+.team-social-link-2:hover ,
+.team-social-link-2:focus {
     background-color: #31d0aa;
 }
 .icon-list-top{
