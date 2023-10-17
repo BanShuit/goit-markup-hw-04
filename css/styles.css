@@ -601,8 +601,8 @@ justify-content: center;
             stroke-width: 0;
             stroke: currentColor;
 }
-.color-1:hover ,
-.color-1:focus {
+.team-social-link:hover ,
+.team-social-link:focus {
     background-color: #31d0aa;
 }
 .icon-list-top{
