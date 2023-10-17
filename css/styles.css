@@ -136,6 +136,7 @@ button {
     border-radius: 4px;
     padding: 12px 24px;
     border: 1px solid var(--cornflower-color);
+    transition: box-shadow 0.3s;
 }
 
 .button-one:hover {
@@ -143,6 +144,7 @@ button {
     color: #FFFFFF;
     cursor: pointer;
     border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-one:visited {
@@ -153,6 +155,7 @@ button {
 .button-one:active {
     background-color: var(--marka-color);
     color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-one:focus {
@@ -565,6 +568,11 @@ display: block;
         border-radius: 50%;
         background-color: var(--iris-color);
 }
+.team-social-link:hover,
+.team-social-link:focus {
+    background-color: #404BBF;
+}
+
 .icons-media-item {
     display: flex;
     justify-content: center;
@@ -578,19 +586,24 @@ display: block;
 margin-top: 8px;
   gap: 24px;
   margin-left: 16px;
+justify-content: center;
 }
 .icons-media-footer{
     display: flex;
     align-items: flex-start;
     gap: 16px;
 }
-.color{
+.color-1{
     fill: var(--cloud-color);
         display: inline-block;
             width: 24px;
             height: 24px;
             stroke-width: 0;
             stroke: currentColor;
+}
+.color-1:hover ,
+.color-1:focus {
+    background-color: #31d0aa;
 }
 .icon-list-top{
     width: 264px;
@@ -628,6 +641,10 @@ margin-bottom: 72px;
         justify-content: center;
         width: 100%;
         height: 100%;
+}
+.custom-logo:hover,
+.custom-logo:focus {
+    border-color: #404BBF;
 }
 .section-five{
 padding-top: 120px;
@@ -693,4 +710,7 @@ justify-content: center;
 }
 .no-none{
     list-style: none;
+}
+.icon-name {
+
 }
