@@ -601,7 +601,7 @@ justify-content: center;
             width: 24px;
             height: 24px;
             stroke-width: 0;
-            stroke: currentColor;
+            fill: currentColor;
 }
 .team-social-link-2:hover ,
 .team-social-link-2:focus {
