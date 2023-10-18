@@ -136,9 +136,8 @@ button {
     border-radius: 4px;
     padding: 12px 24px;
     border: 1px solid var(--cornflower-color);
-    transition: box-shadow 0.3s;
 }
-
+.button-one:focus
 .button-one:hover {
     background-color: var(--marka-color);
     color: #FFFFFF;
@@ -158,11 +157,7 @@ button {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.button-one:focus {
-    background-color: var(--marka-color);
-    color: #FFFFFF;
-    border: 1px solid transparent;
-}
+
 
 .heading-portfolio-one {
     font-weight: 500;
@@ -599,12 +594,12 @@ justify-content: center;
         justify-content: center;
 }
 .color-1{
-    fill: var(--cloud-color);
-        display: inline-block;
-            width: 24px;
-            height: 24px;
-            stroke-width: 0;
-            fill: currentColor;
+    display: inline-block;
+        width: 24px;
+        height: 24px;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: #f4f4fd;
 }
 .team-social-link-2:hover ,
 .team-social-link-2:focus {
@@ -736,4 +731,18 @@ justify-content: center;
 }
 .icon-name {
 
+}
+.social {
+    width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+}
+.link-portfolio{
+display: block;
+}
+.link-portfolio:hover,
+.link-portfolio:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
