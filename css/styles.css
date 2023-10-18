@@ -233,7 +233,7 @@ footer {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--white-color);
+    color: #F4F4FD;
     margin-bottom: 48px;
         display: block;
             max-width: 496px;
@@ -306,10 +306,6 @@ margin: 0 auto;
 }
 
 .selection-four {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
     color: #2e2f42;
     background-color: #F4F4FD;
     padding: 120px 0;
@@ -594,14 +590,12 @@ display: block;
 .icons-media{
 margin-top: 8px;
   gap: 24px;
-  margin-left: 16px;
 justify-content: center;
 }
 .icons-media-footer{
     display: flex;
     align-items: flex-start;
     gap: 16px;
-    margin-left: 16px;
         justify-content: center;
 }
 .color-1{
@@ -616,6 +610,15 @@ justify-content: center;
 .team-social-link-2:focus {
     background-color: #31d0aa;
 }
+.team-social-link-2{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            background-color: #4D5AE5;
+            border-radius: 50%;
+        }
 .icon-list-top{
     width: 264px;
         height: 112px;
@@ -656,6 +659,7 @@ margin-bottom: 72px;
 .custom-logo:hover,
 .custom-logo:focus {
     border-color: #404BBF;
+    color: #404bbf;
 }
 .section-five{
 padding-top: 120px;
@@ -706,20 +710,17 @@ width: 100%;
 justify-content: center;
 }
 .container-five{
-    padding: 120px 120px;
+
 }
 .svg-click{
-    fill: var(--marka-color);
-        display: inline-block;
         width: 104px;
         height: 56px;
         stroke-width: 0;
-        fill: currentColor;
 
 }
 .svg-click:hover ,
 .svg-click:focus{
-    border-color: #404bbf;
+
 }
 .div-margin{
     margin-right: 120px;
