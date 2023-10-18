@@ -137,7 +137,7 @@ button {
     padding: 12px 24px;
     border: 1px solid var(--cornflower-color);
 }
-.button-one:focus
+.button-one:focus,
 .button-one:hover {
     background-color: var(--marka-color);
     color: #FFFFFF;
