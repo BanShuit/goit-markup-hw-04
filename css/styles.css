@@ -568,15 +568,7 @@ display: block;
     background-color: #4D5AE5;
     border-radius: 100%;
 }
-.icons-media-item-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background-color: #4D5AE5;
-    border-radius: 50%;
-}
+
 .icons-media{
 margin-top: 8px;
   gap: 24px;
@@ -724,7 +716,7 @@ justify-content: center;
 .no-none{
     list-style: none;
 }
-.socia-l {
+.social {
     width: 24px;
         height: 24px;
         flex-shrink: 0;
