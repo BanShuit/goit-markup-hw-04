@@ -596,11 +596,11 @@ justify-content: center;
         stroke: currentColor;
         fill: #f4f4fd;
 }
-.team-social-link-2:hover ,
-.team-social-link-2:focus {
+.footer-svg:hover ,
+.footer-svg:focus {
     background-color: #31d0aa;
 }
-.team-social-link-2{
+.footer-svg{
         display: flex;
             justify-content: center;
             align-items: center;
